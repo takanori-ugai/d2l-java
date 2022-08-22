@@ -5,10 +5,11 @@
   },
   "link": "https://djl.ai/",
   "dependencies": [
-    "ai.djl:basicdataset:0.17.0",
-    "ai.djl:api:0.17.0",
-    "ai.djl.mxnet:mxnet-engine:0.17.0",
-    "ai.djl.mxnet:mxnet-native-cu112mkl:1.9.1",
+    "ai.djl:basicdataset:$v",
+    "ai.djl:api:$v",
+    "ai.djl.pytorch:pytorch-engine:0.17.0",
+      "ai.djl.pytorch:pytorch-jni:1.11.0-0.17.0",
+      "ai.djl.pytorch:pytorch-native-cpu:1.11.0",
     "org.slf4j:slf4j-simple:1.7.36",
     "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
   ],
