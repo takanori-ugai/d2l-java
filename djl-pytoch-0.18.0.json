@@ -1,17 +1,18 @@
 {
   "description": "Deep Java Library",
-      "repositories" : [
+  "repositories" : [
       "https://oss.sonatype.org/content/repositories/snapshots/"
       ],
-
   "properties": {
-    "v": "0.17.0"
+    "v": "0.18.0"
   },
   "link": "https://djl.ai/",
   "dependencies": [
-    "ai.djl:basicdataset:0.20.0-SNAPSHOT",
-    "ai.djl:api:0.20.0-SNAPSHOT",
-    "ai.djl.mxnet:mxnet-engine:0.20.0-SNAPSHOT",
+    "ai.djl:basicdataset:0.18.0",
+    "ai.djl:api:0.18.0",
+    "ai.djl.pytorch:pytorch-engine:0.18.0",
+      "ai.djl.pytorch:pytorch-jni:1.11.0-0.18.0",
+      "ai.djl.pytorch:pytorch-native-cpu:1.11.0",
     "org.slf4j:slf4j-simple:1.7.36",
     "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
   ],
@@ -51,6 +52,8 @@
     "java.io.*",
     "java.net.*",
     "java.nio.*",
-    "java.nio.file.*"
+    "java.nio.file.*",
+    "java.util.*",
+    "java.util.function.*"
   ]
 }

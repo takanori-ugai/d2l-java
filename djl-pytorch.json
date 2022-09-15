@@ -4,11 +4,11 @@
       "https://oss.sonatype.org/content/repositories/snapshots/"
       ],
   "properties": {
-    "v": "0.19.0-SNAPSHOT"
+    "v": "0.18.0"
   },
   "link": "https://djl.ai/",
   "dependencies": [
-    "ai.djl:basicdataset:$v",
+    "ai.djl:basicdataset:0.19.0-SNAPSHOT",
     "ai.djl:api:0.19.0-SNAPSHOT",
     "ai.djl.pytorch:pytorch-engine:0.19.0-SNAPSHOT",
       "ai.djl.pytorch:pytorch-jni:1.11.0-0.19.0-SNAPSHOT",
