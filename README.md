@@ -1,22 +1,19 @@
-# Dive into Deep Learning (Java version)
+# Dive into Deep Learning (Kotlin version)
 
-This project is modified from the original [Dive Into Deep Learning](https://d2l.ai) book by Aston Zhang, Zachary C. Lipton, Mu Li, Alex J. Smola and all the community contributors. 
+This project is modified from the original [Dive Into Deep Learning (Java version)](https://d2l.djl.ai/) by Deep Java Library project (https://djl.ai/).
+The Java version is modified from the original [Dive Into Deep Learning](https://d2l.ai) book by Aston Zhang, Zachary C. Lipton, Mu Li, Alex J. Smola and all the community contributors. 
 GitHub of the original book: [https://github.com/d2l-ai/d2l-en](https://github.com/d2l-ai/d2l-en). 
-We have adapted the book to to use Java and the [Deep Java Library(DJL)](https://djl.ai).
+We have adapted the book of Java version to to use Kotlin and the [Deep Java Library(DJL)](https://djl.ai).
 
-All the notebook here can be downloaded and run using Java Kernel. We also compiled the book into a [website](https://d2l.djl.ai).
+All the notebook here can be downloaded and run using Kotlin Kernel.
 
-This project is currently being developed and maintained by AWS and the [DJL community](https://github.com/deepjavalibrary/djl).
+This project is currently being developed and maintained by Takanori Ugai.
 
-## How to run Jupyter Notebook in Java
-
-### Online
-You can run online by clicking: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/deepjavalibrary/d2l-java/master?urlpath=lab)
-
-Or Colab: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepjavalibrary/d2l-java/blob/colab/)
+## How to run Jupyter Notebook in Kotlin
 
 ### Local
-Please follow the instruction [here](https://d2l.djl.ai/chapter_installation/index.html) for how to run notebook using Java kernel.
+Please follow the instruction [here](https://d2l.djl.ai/chapter_installation/index.html) for how to run notebook using Java kernel
+and Kotlin kernel from (https://github.com/Kotlin/kotlin-jupyter)
 
 
 ## How to contribute to this book
