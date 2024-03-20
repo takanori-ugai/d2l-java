@@ -9,11 +9,10 @@
   },
   "link": "https://djl.ai/",
   "dependencies": [
-    "ai.djl:basicdataset:0.20.0-SNAPSHOT",
-    "ai.djl:api:0.20.0-SNAPSHOT",
-    "ai.djl.mxnet:mxnet-engine:0.20.0-SNAPSHOT",
-    "org.slf4j:slf4j-simple:1.7.36",
-    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10"
+    "ai.djl:basicdataset:0.27.0-SNAPSHOT",
+    "ai.djl:api:0.27.0-SNAPSHOT",
+    "ai.djl.mxnet:mxnet-engine:0.27.0-SNAPSHOT",
+    "org.slf4j:slf4j-simple:2.0.12"
   ],
   "imports": [
     "ai.djl.*",
